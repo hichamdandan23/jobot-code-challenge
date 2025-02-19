@@ -1,0 +1,11 @@
+type Query {
+  lastPing: String!
+}
+
+type Mutation {
+  ping: String!
+}
+
+type Subscription {
+  pingReceived: String!
+}
